@@ -21,6 +21,8 @@
                 <label for="age">Your Age</label>
                 <input type="number" id="age" name="age" min="21" max="70">
                 <h5>Must be 21 or older to enter</h5>
+                <label for="password">Your Secret Code</label><span class="required-field">*</span>
+                <input type="password" id="password" name="password" pattern="[0-9a-zA-Z]{6}" title="6-Character Alphanumeric Pass Code">
             </div>
             <!-- TODO: Make fieldset and legend -->
             <fieldset>
@@ -95,8 +97,8 @@
                     </datalist>
                 </div>             
                 <div>
-                    <label for="zipcode">Your Zipcode</label>
-                    <input type="text" id="zipcode" name="zipcode" pattern="[0-9]{5}" title="5-Digit US Zipcode">
+                    <label for="zip">Your Zipcode</label>
+                    <input type="text" id="zip" name="zip" pattern="[0-9]{5}" title="5-Digit US Zipcode">
                 </div>
             </fieldset>
             <fieldset>
